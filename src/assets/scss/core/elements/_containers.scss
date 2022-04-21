@@ -16,6 +16,12 @@
 	max-width: $container--width + ( $container--padding__desktop * 2 );
 }
 
+.head{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
 .container-sm {
 	max-width: $container--width-sm + ( $container--padding__desktop * 2 );
 }
@@ -37,5 +43,7 @@
 
 	.container-xs {
 		max-width: $container--width-xs;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 }

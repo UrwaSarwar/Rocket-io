@@ -141,7 +141,11 @@
 		+ .site-content {
 
 			.section:first-of-type {
-				padding-top: $header-height__desktop;
+				padding-top: 90px;
+				padding-bottom: 90px;
+				background-image: url('/images/a.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
 			}
 		}
 	}
