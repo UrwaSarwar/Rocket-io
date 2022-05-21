@@ -5,6 +5,9 @@
 	}
 }
 
+.font-sm{
+	font-size: 24px;
+}
 .hero-inner {
 	// Affects only hero full
 	> .hero-content + .hero-figure,
@@ -55,7 +58,7 @@
 
 		.section-inner {
 			padding-top: $hero--padding-t__desktop;
-			padding-bottom: $hero--padding-b__desktop;
+			// padding-bottom: $hero--padding-b__desktop;
 		}
 	}
 
@@ -65,6 +68,22 @@
 		> .hero-content + .hero-figure,
 		> .hero-figure + .hero-content {
 			margin-top: $hero--inner-padding-v_desktop;
+		}
+
+
+		.center{
+			display: flex;
+			justify-content: center;
+		}
+		.center-div{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			max-width: 50%;
+
+			.ant-form label p{
+				text-align: left;
+			}
 		}
 	}
 }
