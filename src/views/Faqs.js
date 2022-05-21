@@ -44,7 +44,7 @@ const Faqs = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container head">
+      <div className="container">
         <div className={innerClasses}>
           <div className="hero-content">
           

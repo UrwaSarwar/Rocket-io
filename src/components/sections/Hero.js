@@ -50,15 +50,12 @@ const Hero = ({
       <div className="container head">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-primary">Rocket IO</span>
+            <h1 className="mt-0 mb-12 reveal-from-bottom" data-reveal-delay="200">
+              <span className="text-color-basic font-sm ">Inspiring Possibilities and Delivering The Craftsmanship You Need</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                This is the dummy data written for exposure.
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum — 
-                semper quis lectus nulla at volutpat diam ut venenatis.
+                With success being a long term commitment, we promise to deliver the most digitally advanced and optimized solutions to grow and impact the digital tomorrow together.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>

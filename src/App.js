@@ -3,6 +3,7 @@ import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
+import "antd/dist/antd.css";
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -41,8 +42,8 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/contact-us" component={ContactUs} layout={LayoutDefault} />
-          <AppRoute exact path="/about-us" component={ContactUs} layout={LayoutDefault} />
-          <AppRoute exact path="/faqs" component={ContactUs} layout={LayoutDefault} />
+          <AppRoute exact path="/about-us" component={AboutUs} layout={LayoutDefault} />
+          <AppRoute exact path="/faqs" component={Faqs} layout={LayoutDefault} />
         </Switch>
       )} />
   );

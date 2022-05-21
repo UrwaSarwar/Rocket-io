@@ -1,3 +1,13 @@
+.ant-btn-primary{
+	background: #bf522e !important;
+	border-color: #bf522e !important;
+}
+
+.ant-btn-primary:hover{
+	background: #5ea5d1;
+	border-color: #5ea5d1;
+}
+
 .button {
     display: inline-flex;
 	@include font-size(button);
@@ -92,18 +102,18 @@
 
 .button-primary {
 	color: color(button-primary);
-    background-color: color-bg(button-primary);
-	border-color: color-border(button-primary);
+    background-color: #bf522e;
+	border-color: #bf522e;
 
     &:hover {
-        background-color: color-bg(button-primary-hover);
-		border-color: color-border(button-primary-hover);
+        background-color: #bf522e;
+		border-color: #bf522e;
     }
 
 	&.is-loading {
 
 		&::after {
-			border-color: color(button-primary);
+			border-color: #bf522e;
 		}
 	}
 }
