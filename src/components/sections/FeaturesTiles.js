@@ -63,6 +63,7 @@ const FeaturesTiles = ({
                 background: "#ffff",
                 boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
                 margin: "16px 16px",
+                borderRadius: "20px",
               }}
             >
               <div className="tiles-item-inner">
@@ -95,6 +96,7 @@ const FeaturesTiles = ({
                 background: "#ffff",
                 boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
                 margin: "16px 16px",
+                borderRadius: "20px",
               }}
             >
               <div className="tiles-item-inner">
@@ -128,6 +130,7 @@ const FeaturesTiles = ({
                 background: "#ffff",
                 boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
                 margin: "16px 16px",
+                borderRadius: "20px",
               }}
             >
               <div className="tiles-item-inner">

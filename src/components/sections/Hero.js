@@ -70,7 +70,7 @@ const Hero = ({
                   tag="a"
                   color="primary"
                   wideMobile
-                  href="/"
+                  href="/contact-us"
                   style={{ borderRadius: "24px" }}
                 >
                   Contact Us
