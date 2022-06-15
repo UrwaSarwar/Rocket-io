@@ -4,6 +4,8 @@ import { SectionProps } from "../../utils/SectionProps";
 import ButtonGroup from "../elements/ButtonGroup";
 import Button from "../elements/Button";
 import { Typography } from "antd";
+import { Link } from "react-router-dom";
+
 
 const { Title } = Typography;
 const propTypes = {
@@ -70,10 +72,12 @@ const Hero = ({
                   tag="a"
                   color="primary"
                   wideMobile
-                  href="/contact-us"
+                  // href="/contact-us"
                   style={{ borderRadius: "24px" }}
                 >
+                 <Link to="/contact-us" className="bet-links">
                   Contact Us
+                </Link>
                 </Button>
               </div>
             </div>

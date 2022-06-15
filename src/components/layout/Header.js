@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
+import Image from '../elements/Image';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -88,6 +89,14 @@ const Header = ({
           )}
         >
           {/* <Logo /> */}
+          <a href="http://rocket-io.com" >
+            <Image
+              src={require("./../../assets/images/Rockett.png")}
+              alt="Rocket"
+              width={100}
+              height={100}
+            />
+          </a>
           {!hideNav && (
             <>
               <button

@@ -2,18 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 import Logo from "./partials/Logo";
+import Image from "../elements/Image";
 import FooterNav from "./partials/FooterNav";
 import FooterSocial from "./partials/FooterSocial";
 import { Link } from "react-router-dom";
-import { Radio, Typography, Divider } from "antd";
-import {
-  CheckOutlined,
-  HighlightOutlined,
-  SmileOutlined,
-  SmileFilled,
-} from "@ant-design/icons";
-
-import { Row, Col } from "antd";
 import { Radio, Typography, Divider } from "antd";
 import {
   CheckOutlined,
@@ -121,18 +113,17 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
         </Col>
       </Row> */}
         <div className={classNames("site-footer-inner", topDivider && "")}>
-          <div className="footer-bottom space-between text-xxs invert-order-desktop">
-            
+          <div className="footer-bottom space-between text-xxs invert-order-desktop">            
             <div className="middle">
             <div
                   style={{
                     display: "flex",
                     justifyContent: "center",
-                    paddingTop: "20px",
-                    margin: "16px 16px 16px 0px",
+                    paddingTop: "10px",
+                    margin: "14px 14px 14px 0px",
                   }}
                 >
-                  <div style={{ margin: "0px 8px" }}>
+                  <div style={{ margin: "0px 8px", padding: "10px", borderRadius: "50%", backgroundColor: "white" }}>
                     <a href="https://facebook.com/">
                       <svg
                         width="32"
@@ -145,7 +136,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
                       </svg>
                     </a>
                   </div>
-                  <div style={{ margin: "0px 8px" }}>
+                  <div style={{ margin: "0px 8px", padding: "10px", borderRadius: "50%", backgroundColor: "white"}}>
                     <a href="https://twitter.com/">
                       <svg
                         width="32"
@@ -158,7 +149,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
                       </svg>
                     </a>
                   </div>
-                  <div style={{ margin: "0px 8px" }}>
+                  <div style={{ margin: "0px 8px", padding: "10px", borderRadius: "50%", backgroundColor: "white" }}>
                     <a href="https://google.com/">
                       <svg
                         width="32"
@@ -185,26 +176,28 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
                   Contact Us
                 </Link>
                    
-                <Link to="/about-us" className="bet-links">
+                {/* <Link to="/about-us" className="bet-links">
                   About Us
-                </Link>              
+                </Link>               */}
             </div>
 
-            <div className="sections">
+            <div style={{	borderTop: "1px solid white" , width: "100%", paddingTop :"10px"}} className="sections">
+              All Rights Reserved.
               By
               <a
-                style={{ color: "black", margin: "0px 4px" }}
+                style={{ color: "black", margin: "4px" }}
                 href="http://rocket-io.com"
               >
                 {" "}
-                Rocket.io
+                <Image
+                  src={require("./../../assets/images/Rockett.png")}
+                  alt="Features tile icon 01"
+                  width={50}
+                  height={50}
+                />
               </a>
-              All rights reserved
-
             </div>
             </div>
-
-
           </div>
         </div>
     </footer>
