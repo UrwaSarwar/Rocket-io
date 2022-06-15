@@ -50,22 +50,22 @@ const Hero = ({
       <div className="container head">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-12 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-basic font-sm ">Inspiring Possibilities and Delivering The Craftsmanship You Need</span>
-            </h1>
+            <Title
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 With success being a long term commitment, we promise to deliver the most digitally advanced and optimized solutions to grow and impact the digital tomorrow together.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="/">
-                    Contact Us
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="/">
-                    Contact Us
-                    </Button>
-                </ButtonGroup>
+                <Button
+                  className="ant-btn-primary"
+                  tag="a"
+                  color="primary"
+                  wideMobile
+                  href="/contact-us"
+                  style={{ borderRadius: "24px" }}
+                >
+                  Contact Us
+                </Button>
               </div>
             </div>
           </div>

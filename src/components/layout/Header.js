@@ -117,12 +117,9 @@ const Header = ({
                     <li>
                       <Link to="/contact-us" onClick={closeMenu}>Contact Us</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/about-us" onClick={closeMenu}>About Us</Link>
-                    </li>
-                    <li>
-                      <Link to="/faqs" onClick={closeMenu}>FAQ's</Link>
-                    </li>                    
+                    </li> */}
                   </ul>
                 </div>
               </nav>
