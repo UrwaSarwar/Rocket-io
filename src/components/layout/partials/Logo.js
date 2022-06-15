@@ -23,8 +23,8 @@ const Logo = ({
           <Image
             src={require('./../../../assets/images/Rocketio.png')}
             alt="Open"
-            width={45}
-            height={50} />
+            width={160}
+            height={160} />
         </Link>
       </h1>
     </div>

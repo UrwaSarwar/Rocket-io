@@ -43,8 +43,8 @@ $color: (
 	high-contrast: 			get-color(dark, 1),
 	mid-contrast: 			get-color(dark, 2),
 	low-contrast: 			get-color(dark, 3),
-	primary:				get-color(basic, 1),
-	basic:					get-color(basic, 1),
+	primary:				#d96024,
+	basic:					#d96024,
 	secondary:				get-color(basic, 2),
 	error:					get-color(alert, error),
 	warning:				get-color(alert, warning),
@@ -81,7 +81,7 @@ $icon--color: (
 
 // Misc elements: background color
 $bg--color: (
-	body: 			get-color(light, 1),
+	body: 			#ffff,
 	body-shadow:	0 20px 48px rgba(get-color(light, 1), .8),	// body shadow when a boxed layout is used (set to null if don't want a shadow)
 	body-outer:		lighten(get-color(light, 1), 2%),			// outer bg color when a boxed layout is used
 	bg-color: 		lighten(get-color(dark, 1), 9%),			// .has-bg-color helper class

@@ -14,28 +14,30 @@ import {
 } from "@ant-design/icons";
 
 import { Row, Col } from "antd";
-const { Paragraph } = Typography;
+import { Radio, Typography, Divider } from "antd";
+import {
+  CheckOutlined,
+  HighlightOutlined,
+  SmileOutlined,
+  SmileFilled,
+} from "@ant-design/icons";
 
+import { Row, Col } from "antd";
+const { Paragraph } = Typography;
 const propTypes = {
   topOuterDivider: PropTypes.bool,
-  topDivider: PropTypes.bool
-}
+  topDivider: PropTypes.bool,
+};
 
 const defaultProps = {
   topOuterDivider: false,
-  topDivider: false
-}
+  topDivider: false,
+};
 
-const Footer = ({
-  className,
-  topOuterDivider,
-  topDivider,
-  ...props
-}) => {
-
+const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
   const classes = classNames(
-    'site-footer center-content-mobile',
-    topOuterDivider && 'has-top-divider',
+    "site-footer center-content-mobile",
+    topOuterDivider && "has-top-divider",
     className
   );
 
@@ -50,7 +52,6 @@ const Footer = ({
         <Col span={6}>
           <div className="footer-top space-between text-xxs">
             <Logo />
-            <FooterSocial />
           </div>
         </Col>
         <Col span={6} style={{ display: "flex", justifyContent: "center" }}>
@@ -208,7 +209,7 @@ const Footer = ({
         </div>
     </footer>
   );
-}
+};
 
 Footer.propTypes = propTypes;
 Footer.defaultProps = defaultProps;
