@@ -48,18 +48,13 @@ const Hero = ({
       <div className="container head">
         <div className={innerClasses}>
           <div className="hero-content">
-            <Title
-              className="mt-0 mb-12 reveal-from-bottom"
-              data-reveal-delay="200"
-            >
-              <span className="text-color-basic font-sm ">
+            <div className="container-xs">
+              <p className="text-color-basic title font-sm">
                 Inspiring Possibilities and Delivering The Craftsmanship You
                 Need
-              </span>
-            </Title>
-            <div className="container-xs">
+              </p>
               <p
-                className="m-0 mb-32 reveal-from-bottom"
+                className="m-0 mb-32 reveal-from-bottom font-md"
                 data-reveal-delay="400"
               >
                 With success being a long term commitment, we promise to deliver
@@ -71,6 +66,7 @@ const Hero = ({
                   className="ant-btn-primary"
                   tag="a"
                   color="primary"
+                  size="30px"
                   wideMobile
                   // href="/contact-us"
                   style={{ borderRadius: "24px" }}

@@ -93,8 +93,8 @@ const Header = ({
             <Image
               src={require("./../../assets/images/Rockett.png")}
               alt="Rocket"
-              width={100}
-              height={100}
+              width={120}
+              height={120}
             />
           </a>
           {!hideNav && (
@@ -116,7 +116,7 @@ const Header = ({
                 <div className="header-nav-inner">
                   <ul
                     className={classNames(
-                      "list-reset text-xs",
+                      "list-reset text-md",
                       navPosition && `header-nav-${navPosition}`
                     )}
                   >
